@@ -94,6 +94,12 @@ Kamu bisa langsung menyalin (*copy*) seluruh teks di dalam kotak kode bawah ini 
 
 ---
 
+Berikut adalah draf file `README.md` yang disusun secara lengkap, sistematis, dan profesional berdasarkan seluruh *source code* serta hasil eksekusi yang tercantum di dalam laporan praktikummu.
+
+Kamu bisa langsung menyalin (*copy*) seluruh teks di dalam kotak kode bawah ini untuk dijadikan berkas `README.md` di repositori GitHub milikmu.
+
+---
+
 ```markdown
 # Laporan Praktikum Manajemen Data - Proyek Akhir
 
@@ -181,6 +187,8 @@ done < "$FILE"
 ```powershell
 docker compose up -d --build --force-recreate
 [cite_start]
+
+```
 
 ```
 
