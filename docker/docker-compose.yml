@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .   # Ini akan membaca Dockerfile utama (Flask)
+    container_name: flask-analysis-container
+    restart: always
+    expose:
+      - "5000"
+
+  nginx:
+    build: ./nginx   # Ini akan membaca Dockerfile di dalam folder nginx
+    container_name: nginx-proxy-container
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - flask-app
+
+# ini menggunakan port 80
