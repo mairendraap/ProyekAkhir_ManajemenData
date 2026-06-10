@@ -59,7 +59,7 @@ Sistem sukses membacakan isi `users.txt` dan mendaftarkan user Budi, Andi, dan C
 
 ---
 
-### ### 2. Pembuatan Disk Virtual & Manajemen Backup (`crontab`)
+### 2. Pembuatan Disk Virtual & Manajemen Backup (`crontab`)
 
 #### **A. Penjelasan Kode Penjadwalan**
 
@@ -121,7 +121,7 @@ Untuk mengotomatiskan pencadangan data dari disk tersebut ke folder `/backup`, k
 
 ---
 
-### ### 3. Script Monitoring Space HDD (`cek_hdd.sh`)
+### 3. Script Monitoring Space HDD (`cek_hdd.sh`)
 
 #### **A. Penjelasan Kode**
 
@@ -155,11 +155,11 @@ Karena angka 99% jauh lebih besar dari batas kritis 20%, script tidak mengeluark
 
 ---
 
-## ## 🐳 TUGAS 2: DEPLOYMENT CONTAINER (DOCKER & NGINX PROXY)
+## TUGAS 2: DEPLOYMENT CONTAINER (DOCKER & NGINX PROXY)
 
 Pada Tugas 2, arsitektur manajemen data ditingkatkan menjadi sistem web server multi-container menggunakan **Docker Compose**.
 
-### ### 1. Dockerfile Utama (Aplikasi Python Flask)
+### 1. Dockerfile Utama (Aplikasi Python Flask)
 
 #### **A. Penjelasan Kode**
 
@@ -191,7 +191,7 @@ CMD ["python", "app.py"]
 
 ---
 
-### ### 2. Source Code Analisis Data (`app.py`)
+### 2. Source Code Analisis Data (`app.py`)
 
 #### **A. Penjelasan Kode**
 
