@@ -1,6 +1,5 @@
----
-
-## ## 🐧 TUGAS 1: ADMINISTRASI SISTEM & SCRIPTING (WSL)
+```
+## ## TUGAS 1: ADMINISTRASI SISTEM & SCRIPTING (WSL)
 
 ### ### 1. Script Pembuatan User Otomatis (`buat_user.sh`)
 
