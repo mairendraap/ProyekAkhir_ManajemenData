@@ -1,10 +1,10 @@
-```
+
 ## ## TUGAS 1: ADMINISTRASI SISTEM & SCRIPTING (WSL)
 
 ### ### 1. Script Pembuatan User Otomatis (`buat_user.sh`)
 
 #### **A. Penjelasan Kode**
-
+```
 Di dalam file ini, terdapat logika otomasi administrasi user Linux:
 
 * 
